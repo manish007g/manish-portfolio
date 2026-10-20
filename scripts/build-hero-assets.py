@@ -80,9 +80,9 @@ def font(names, size):
 big = font(["arialbd.ttf", "DejaVuSans-Bold.ttf"], 132)
 mid = font(["ariali.ttf", "georgiai.ttf", "DejaVuSerif-Italic.ttf"], 56)
 sm = font(["arial.ttf", "DejaVuSans.ttf"], 26)
-d.text((72, 150), "Ajay B", font=big, fill=ink)
+d.text((72, 150), "Manish", font=big, fill=ink)
 d.text((76, 310), "Site Reliability Engineer", font=mid, fill=mute)
-d.text((76, 400), "Systems Engineer III (SRE)  |  LexisNexis Risk Solutions", font=sm, fill=ink)
+d.text((76, 400), "Consultant Software Engineer  |  Societe Generale", font=sm, fill=ink)
 og.save(os.path.join(OUT, "og.jpg"), quality=90)
 
 # ---- favicon: ink disc with AB ----

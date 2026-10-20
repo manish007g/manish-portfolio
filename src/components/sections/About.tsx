@@ -5,9 +5,8 @@ import { PROFILE } from "@/lib/data";
 
 const FACTS: { k: string; v: string; href?: string }[] = [
   { k: "Current role", v: `${PROFILE.role}, ${PROFILE.company}` },
-  { k: "Education", v: "MBA in Business Analytics, BITS Pilani (pursuing)" },
-  { k: "", v: "PG Diploma in Advanced Cloud Computing and DevOps, IIT Roorkee" },
-  { k: "Location", v: PROFILE.location },
+  { k: "Education", v: "B.Tech Computer Science, JSS Academy of Technical Education, Noida" },
+  { k: "Location", v: `${PROFILE.location}, 560076` },
   { k: "Email", v: PROFILE.email, href: `mailto:${PROFILE.email}` },
   { k: "Phone", v: PROFILE.phone, href: PROFILE.phoneHref },
 ];
@@ -17,7 +16,7 @@ export default function About() {
     <section id="about" className="section about" aria-labelledby="about-heading">
       <div className="wrap about-grid">
         <div className="about-l">
-          <SectionHeading id="about" lead="Hi, I'm" accent="Ajay." />
+          <SectionHeading id="about" lead="Hi, I'm" accent="Manish." />
           <p className="about-p rv" style={{ ["--i" as string]: 1 }}>
             {PROFILE.resumeSummary}
           </p>
@@ -44,7 +43,7 @@ export default function About() {
           </dl>
           <figure className="about-q rv" style={{ ["--i" as string]: 6 }}>
             <blockquote>
-              Built GitHub Actions CI/CD and an OpenTelemetry observability stack <span className="accent">from scratch.</span>
+              Architecting Agentic AI solutions for enterprise incident response and automating <span className="accent">critical SRE workflows.</span>
             </blockquote>
           </figure>
         </aside>

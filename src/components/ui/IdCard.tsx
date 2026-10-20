@@ -18,14 +18,14 @@ function bars(seed: string): { x: number; w: number }[] {
   }
   return out;
 }
-const BARS = bars("AJAY-B-SRE");
+const BARS = bars("MANISH-G-SRE");
 
 const BACK_LINES = [
-  "Systems Engineer III (SRE) at LexisNexis Risk Solutions",
-  "PG Diploma in Advanced Cloud Computing and DevOps, IIT Roorkee",
-  "MBA in Business Analytics at BITS Pilani (pursuing)",
-  "Projects: Micro-blogging platform, Alexa Tourist Assistant, Home Automation using IoT",
-  "Spotlight Award and Inspiration Beacon Award",
+  "Consultant Software Engineer at Societe Generale",
+  "Former Senior Software Engineer (AVP) at Wells Fargo",
+  "10+ years in SRE, Resiliency & Agentic AI Solutions",
+  "Built ServiceNow Agentic AI for Major Incidents & Change Governance",
+  "10 Certifications: Azure, Google Cloud, Splunk, ITIL, RPA",
 ];
 
 export default function IdCard() {
@@ -98,7 +98,7 @@ export default function IdCard() {
               <span key={k}>
                 {Array.from({ length: 6 }).map((_, i) => (
                   <b key={i}>
-                    AJAY B <i>·</i> SYSTEMS ENGINEER III (SRE) <i>·</i>
+                    MANISH GUPTA <i>·</i> SRE & AGENTIC AI <i>·</i>
                   </b>
                 ))}
               </span>

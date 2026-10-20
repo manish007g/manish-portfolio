@@ -89,7 +89,7 @@ export default function Hero() {
           <div className="hero-cta rv" style={{ ["--i" as string]: 3 }}>
             <Button href="#work" onClick={go("work")}>Explore work</Button>
             <Button href="#contact" onClick={go("contact")} variant="secondary">Let&apos;s talk</Button>
-            <Button href={PROFILE.resume} variant="secondary" download="Ajay-B-Resume.pdf">Résumé ↓</Button>
+            <Button href={PROFILE.resume} variant="secondary" download="Manish-Gupta-Resume.pdf">Résumé ↓</Button>
           </div>
         </div>
 
