@@ -15,8 +15,8 @@ export const PROFILE = {
   email: "manish.max.gupta@gmail.com",
   phone: "+91 860-569-8837",
   phoneHref: "tel:+918605698837",
-  github: "https://github.com/",
-  linkedin: "https://www.linkedin.com/",
+  github: "https://github.com/manish007g",
+  linkedin: "https://www.linkedin.com/in/manishgupta19/",
   resume: asset("/cv.pdf"),
   resumeSummary:
     "Consultant Software Engineer and Certified Site Reliability Engineer with 10+ years of comprehensive experience delivering high-resilience SRE, observability, and cutting-edge Agentic AI solutions. Architect of autonomous ServiceNow AI agents for major incident management (automated 5-Why root-cause analysis & executive summaries) and digital change review governance across leading institutions including Societe Generale, Wells Fargo, and UBS.",
